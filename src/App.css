@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.section-heading{
+  font-family: 'Do Hyeon', sans-serif;
+  color: #078DD2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.266);
+}
+
+.color-primary {
+  color: #078DD2;
+}
+
+.color-secondary{
+  color: #99d9f6;
+}
+.color-highlight{
+  color: orange;
+}
+
+.ls-2{
+  letter-spacing: 3px;
+}
+
+.btn-custom{
+  background: #078DD2 !important;
+  color: #fff !important;
+}

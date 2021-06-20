@@ -1,0 +1,33 @@
+.socialLink {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 9999;
+}
+.socialLinkItems {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: -5px 5px 10px #00000061, inset 0 0 10px #ffffff21;
+  transition: all ease 0.1s;
+}
+.socialLinkItems:hover {
+  background: #078dd2;
+  transition: all ease 0.1s;
+}
+.socialLinkItems:first-child {
+  border-radius: 10px 10px 0px 0px;
+}
+.socialLinkItems:last-child {
+  border-radius: 0px 0px 10px 10px;
+}
+.socialLinkItems a {
+  color: #444444;
+  font-size: 35px;
+  transition: all ease 0.1s;
+}
+.socialLinkItems:hover.socialLinkItems a {
+  color: #fff;
+  transition: all ease 0.1s;
+}

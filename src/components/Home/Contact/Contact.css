@@ -1,0 +1,27 @@
+.contact {
+	background: linear-gradient(to right, 
+    #F6F6F6 50%,
+	#E4E5E0 50% 
+    );
+	overflow: hidden;
+	padding: 50px 0px;
+	display: flex;
+}
+.contactStyle {
+	border: 1px solid red;
+}
+.contact .from {
+}
+
+.contact .from label {
+	display: block;
+	margin: 10px 0;
+}
+.contact .from input,
+.contact .from textarea{
+	background-color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 0 !important;
+	margin-bottom: 5px;
+}

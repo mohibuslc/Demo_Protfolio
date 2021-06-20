@@ -1,0 +1,27 @@
+.profileImage {
+  width: 400px;
+}
+.styleOfHeader {
+  /* border: 1px solid black; */
+  /* padding: 0px 100px; */
+  background: linear-gradient(to bottom, #f6f6f6 50%, #e4e5e0 50%);
+  height: 100vh;
+  padding: 25px 50px;
+
+}
+.headerProfileImage {
+  height: 95vh;
+  width: auto;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .styleOfHeader {
+    /* border: 1px solid black; */
+    /* padding: 0px 100px; */
+    background: linear-gradient(to bottom, #f6f6f6 50%, #e4e5e0 50%);
+    height: auto;
+    padding: 20px 30px;
+  }
+}

@@ -1,0 +1,28 @@
+.styleOfNav {
+  padding: 0 100px;
+}
+
+img.logoImg {
+  width: 4rem;
+}
+header.container {
+  position: relative;
+}
+.active{
+  color: #078DD2 !important;
+}
+.text-style li a:hover{
+  color: #078DD2 !important;
+}
+.navStyle {
+  z-index: 999;
+}
+
+.text-style {
+	font-size: 16px;
+	font-weight: 700;
+}
+.scrollChange{
+  background: #fff;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}

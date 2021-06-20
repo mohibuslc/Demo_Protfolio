@@ -1,0 +1,14 @@
+.css-1f02b8t-TitleWrapper.active,
+.css-vtfjjl-Circle.active{
+    background-color: #078DD2 !important;
+    color: #fff !important;
+}
+.css-vtfjjl-Circle:not(.using-icon).active::after {
+    background-color: #078DD2 !important;
+
+}
+
+.css-vtfjjl-Circle:not(.using-icon),
+.css-ic9qte-VerticalCircleWrapper::after{
+    background: #444444 !important;
+}

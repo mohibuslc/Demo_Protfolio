@@ -1,0 +1,48 @@
+.progress {
+	background-color: #d8d8d8;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+}
+.progress-name{
+    width: 150px;
+    max-width: 150px;
+	background: #078DD2;
+    font-weight: bold;
+}
+
+.progress-done {
+	background: linear-gradient(to left, #078DD2, #99d9f6);
+	box-shadow: 0 3px 3px -5px #078DD2, 0 2px 5px #99d9f6;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+.skill-item{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+	animation-name: UpDown;
+	animation-duration: 1.5s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+
+.skill-item img{	
+	width: 100%;
+}
+
+@keyframes UpDown {
+		0% {
+			transform: scale(1.10)
+		}
+		100% {
+			transform: scale(.990)
+		}
+    }
